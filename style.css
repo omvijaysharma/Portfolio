@@ -20,9 +20,13 @@ body, html {
   z-index: 0;
   object-fit: cover;
 }
-.links,.buttons,.vijay,.mypre,.copyright,.video-container,.content1 {
+.links,.buttons,.vijay,.mypre,.copyright,.video-container,.content1,.title {
     position: relative;
     z-index: 1;
+}
+.title {
+    color: #00abff;
+    margin-left: 5%;
 }
 .info,.internship,.project,.github,.linkedin,.telegram,.instagram,.x {
     float: right;
@@ -43,7 +47,7 @@ body, html {
                 }
 }
 .links {
-   margin: 10% 0 3% 0;
+   margin: 1% 0 3% 0;   
 }
 .instagram {
     color: #ff00f1;
@@ -87,4 +91,8 @@ body, html {
 .buttons {
     margin: 0 0 0 22%;
 }
-               }
+.title {
+    text-align: center;
+    margin-left: 0%;
+}
+                          }
