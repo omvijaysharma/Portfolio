@@ -43,7 +43,7 @@ body, html {
                 }
 }
 .links {
-   margin: 10% 0 3% 0;
+   margin: 1% 0 3% 0;
 }
 .instagram {
     color: #ff00f1;
@@ -64,7 +64,7 @@ body, html {
     margin: 7% 50% 0 5%;
 }
 .copyright {
-    margin: 15% 0 0 55%;
+    margin: 3% 0 0 50%;
 }
 /* less then 600 px */
 @media(max-width:600px){
