@@ -20,7 +20,7 @@ body, html {
   z-index: 0;
   object-fit: cover;
 }
-.links,.buttons,.vijay,.mypre,.copyright,.video-container,.content1,.title {
+.links, .buttons, .vijay, .mypre, .copyright, .video-container, .content1, .title {
     position: relative;
     z-index: 1;
 }
@@ -28,9 +28,9 @@ body, html {
     color: #00abff;
     margin-left: 5%;
 }
-.info,.internship,.project,.github,.linkedin,.telegram,.instagram,.x {
+.info, .internship, .project, .github, .linkedin, .telegram, .instagram, .x {
     float: right;
-    padding: 0%;
+    padding: 2% 3%;
     display: inline-block;
     text-decoration: none;
     outline: 0;
@@ -38,27 +38,26 @@ body, html {
     border: none;
     background: black;
     color: white;
-    padding: 2% 3%;
     font-size: 11px;
     font-weight: 700;
-    transition: transform 200ms,background 200ms;
-          :hover{
+    transition: transform 200ms, background 200ms;
+}
+.info:hover, .internship:hover, .project:hover, .github:hover, .linkedin:hover, .telegram:hover, .instagram:hover, .x:hover {
     transform: translateY(-2px);
-                }
 }
 .links {
-   margin: 1% 0 3% 0;   
+    margin: 1% 0 3%;   
 }
 .instagram {
     color: #ff00f1;
 }
-.linkedin,.telegram {
+.linkedin, .telegram {
     color: #158cff;
 }
 .buttons {
     margin-right: 2%;
 }
-.vijay{
+.vijay {
     height: 13%;
     width: 40%;
     margin: 5% 0 0 5%;
@@ -67,32 +66,30 @@ body, html {
     color: white;
     margin: 1% 50% 0 5%;
 }
-/* less then 600 px */
-@media(max-width:600px){
-
-.mypre {
-       margin: 5% 5% 2% 5%;
+/* less then 600px */
+@media(max-width:600px) {
+    .mypre {
+        margin: 5%;
+    }
+    .vijay {
+        margin: 15% 0 5% 5%;
+        width: 90%;
+    }
+    .info, .internship, .project {
+        width: 25%;
+        float: none;
+    }
+    .linkedin, .github, .instagram, .telegram, .x {
+        width: 95%;
+        float: none;
+        margin: 1% 0 1% 2.5%;
+        display: inline-table;
+  }
+    .buttons {
+        margin-left: 22%;
+    }
+    .title {
+        text-align: center;
+        margin-left: 0;
+    }
 }
-.vijay {
-       margin: 15% 0 5% 5%;
-       width: 90%;
-}
-.info,.internship,.project {
-       float: none;
-       display: inline-block;
-       width: 25%;
-}
-.linkedin,.github,.instagram,.telegram,.x {
-    width: 95%;
-    float: none;
-    display: inline-table;
-    margin: 1% 0 1% 2.5%;
-}
-.buttons {
-    margin: 0 0 0 22%;
-}
-.title {
-    text-align: center;
-    margin-left: 0%;
-}
-                          }
