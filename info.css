@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+.home {
+    width: 25%;
+    height: 50px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 20px;
+}
+.info {
+    text-align: center;
+    color: white;
+}
+h3,h1 {
+    color: #00eaff;
+}
