@@ -1,0 +1,29 @@
+body {
+  background-image: url('project.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.home {
+    width: 25%;
+    height: 50px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.project {
+    color: #15cbff;
+}
+.pro {
+    background-color: #15cbff;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border: none;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-left: 10%;
+}
